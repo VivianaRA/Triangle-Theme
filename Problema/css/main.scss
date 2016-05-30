@@ -230,6 +230,7 @@ h3 {
 .f-w{
   font-weight: bold;}
 
+
 /******SLIDER-Sara Gabriela******/
 #home-slider {background-image: url('../images/home/slider-bg.png'); min-height:430px; background-repeat:repeat-x; background-position:bottom;
 .slide-text{max-width:430px; margin-top:80px;
@@ -261,3 +262,16 @@ img{position:absolute;}
 }
 
 /*// final scss.......dulce*/
+
+
+/*Rosario Open*/
+#action{
+.container{
+background: url("../images/home/tour-bg.png");
+background-size: cover;
+.col-sm-5{
+position:normal;
+a{ margin: 0; top:20px; position:relative; top:30px;}
+img{ height: 100px; float:right; width:60%;} } } }
+/*Rosario Close*/
+

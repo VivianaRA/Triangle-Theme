@@ -293,5 +293,22 @@ h3 {
   padding: 45px 0; }
 
 /*// final scss.......dulce*/
+/*Rosario Open*/
+#action .container {
+  background: url("../images/home/tour-bg.png");
+  background-size: cover; }
+  #action .container .col-sm-5 {
+    position: normal; }
+    #action .container .col-sm-5 a {
+      margin: 0;
+      top: 20px;
+      position: relative;
+      top: 30px; }
+    #action .container .col-sm-5 img {
+      height: 100px;
+      float: right;
+      width: 60%; }
+
+/*Rosario Close*/
 
 /*# sourceMappingURL=main.css.map */
