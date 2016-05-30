@@ -1,6 +1,7 @@
 $dorado:#D89B4E;
 $plomo: #686868;
 $small:12px;
+$max:30px;
 
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
@@ -199,3 +200,32 @@ h3 {
   h2,p{text-align:center; }
   img{margin: auto;}
 }
+
+
+// footer - Mabe
+.bg-footer {
+    background-image:url("../images/home/footer.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    // background-size: inherit;
+    }
+.comillas {
+  color: $dorado;
+  font-size:$max;
+}
+.pad{
+  padding: 0px 30px 0px 30px;
+}
+
+.form-control {
+  border:1px solid $dorado;}
+
+.btn-submit{
+  background-color: $dorado;
+  color: white;
+  width: 100%;
+  box-shadow: 0px 5px 2px #A9651A;
+}
+
+.f-w{
+  font-weight: bold;}
