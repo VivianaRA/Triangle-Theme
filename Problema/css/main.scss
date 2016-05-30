@@ -17,6 +17,18 @@ body {
 html {
   height: 100%; }
 
+.efecto{
+   color: #a5732a;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+.efecto a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #dab074; }
+
 a {
   color: #a5732a;
   -webkit-transition: 300ms;
