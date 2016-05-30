@@ -9,6 +9,22 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: #000; }
+/*// scss comienzo dulce*/
+
+ .centerbloque  { 
+   
+  padding-left : 10px ; 
+  padding-right : 10px ; 
+}
+.padding {
+  padding: 40px 0; }
+
+.service-3{
+  padding: 45px 0;
+}
+
+/*// final scss.......dulce*/
+
 
 html {
   height: 100%; }
