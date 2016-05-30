@@ -275,3 +275,23 @@ a{ margin: 0; top:20px; position:relative; top:30px;}
 img{ height: 100px; float:right; width:60%;} } } }
 /*Rosario Close*/
 
+/*vivi*/
+.centro{
+   margin:auto;
+}
+h1{
+   font-weight: 500;
+}
+p{
+  padding-bottom: 20px;
+  margin: 20px;
+}
+@media (max-width:750px){
+    #clients .col-xs-3 .col-sm-2{
+    margin:0px !important; 
+    padding:0px !important;
+    border:0px !important;
+
+   } 
+}
+/*vivi*/
