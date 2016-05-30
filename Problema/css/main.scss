@@ -182,3 +182,8 @@ h3 {
   border: 0;
   color: #d29948; }
 
+@media (max-width: 768px) {
+  .single-features{padding: 1.5em;}
+  h2,p{text-align:center; }
+  img{margin: auto;}
+}
