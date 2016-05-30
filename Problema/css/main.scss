@@ -229,3 +229,35 @@ h3 {
 
 .f-w{
   font-weight: bold;}
+
+/******SLIDER-Sara Gabriela******/
+#home-slider {background-image: url('../images/home/slider-bg.png'); min-height:430px; background-repeat:repeat-x; background-position:bottom;
+.slide-text{max-width:430px; margin-top:80px;
+p{margin-top:40px; margin-bottom:40px;}
+}
+img{position:absolute;}
+.slider-house{top:390px; right:80px;}
+.slider-cycle{top:500px; left:470px;}
+.slider-circle1{top:350px; right:510px;}
+.slider-circle2{top:330px; right:495px;}
+.slider-sun{top:170px; right:280px;}
+.slider-cloud1{top:220px; right:160px;}
+.slider-cloud2{top:150px; right:450px;}
+.slider-cloud3{top:280px; right:380px;}
+}
+
+/*// scss comienzo dulce*/
+
+ .centerbloque  { 
+   
+  padding-left : 10px ; 
+  padding-right : 10px ; 
+}
+.padding {
+  padding: 40px 0; }
+
+.service-3{
+  padding: 45px 0;
+}
+
+/*// final scss.......dulce*/

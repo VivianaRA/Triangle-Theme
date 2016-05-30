@@ -9,22 +9,6 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: #000; }
-/*// scss comienzo dulce*/
-
- .centerbloque  { 
-   
-  padding-left : 10px ; 
-  padding-right : 10px ; 
-}
-.padding {
-  padding: 40px 0; }
-
-.service-3{
-  padding: 45px 0;
-}
-
-/*// final scss.......dulce*/
-
 
 html {
   height: 100%; }
@@ -224,5 +208,90 @@ h3 {
   background-color: inherit;
   border: 0;
   color: #d29948; }
+
+@media (max-width: 768px) {
+  .single-features {
+    padding: 1.5em; }
+
+  h2, p {
+    text-align: center; }
+
+  img {
+    margin: auto; } }
+.bg-footer {
+  background-image: url("../images/home/footer.png");
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+.comillas {
+  color: #D89B4E;
+  font-size: 30px; }
+
+.pad {
+  padding: 0px 30px 0px 30px; }
+
+.form-control {
+  border: 1px solid #D89B4E; }
+
+.btn-submit {
+  background-color: #D89B4E;
+  color: white;
+  width: 100%;
+  box-shadow: 0px 5px 2px #A9651A; }
+
+.f-w {
+  font-weight: bold; }
+
+/******SLIDER-Sara Gabriela******/
+#home-slider {
+  background-image: url("../images/home/slider-bg.png");
+  min-height: 430px;
+  background-repeat: repeat-x;
+  background-position: bottom; }
+  #home-slider .slide-text {
+    max-width: 430px;
+    margin-top: 80px; }
+    #home-slider .slide-text p {
+      margin-top: 40px;
+      margin-bottom: 40px; }
+  #home-slider img {
+    position: absolute; }
+  #home-slider .slider-house {
+    top: 390px;
+    right: 80px; }
+  #home-slider .slider-cycle {
+    top: 500px;
+    left: 470px; }
+  #home-slider .slider-circle1 {
+    top: 350px;
+    right: 510px; }
+  #home-slider .slider-circle2 {
+    top: 330px;
+    right: 495px; }
+  #home-slider .slider-sun {
+    top: 170px;
+    right: 280px; }
+  #home-slider .slider-cloud1 {
+    top: 220px;
+    right: 160px; }
+  #home-slider .slider-cloud2 {
+    top: 150px;
+    right: 450px; }
+  #home-slider .slider-cloud3 {
+    top: 280px;
+    right: 380px; }
+
+/*// scss comienzo dulce*/
+.centerbloque {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.padding {
+  padding: 40px 0; }
+
+.service-3 {
+  padding: 45px 0; }
+
+/*// final scss.......dulce*/
 
 /*# sourceMappingURL=main.css.map */
