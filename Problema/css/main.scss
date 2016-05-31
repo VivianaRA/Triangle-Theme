@@ -196,11 +196,6 @@ h3 {
   border: 0;
   color: #d29948; }
 
-@media (max-width: 768px) {
-  .single-features{padding: 1.5em;}
-  h2,p{text-align:center; }
-  img{margin: auto;}
-}
 
 
 // footer - Mabe
@@ -234,12 +229,13 @@ h3 {
 
 /******SLIDER-Sara Gabriela******/
 #home-slider {background-image: url('../images/home/slider-bg.png'); min-height:430px; background-repeat:repeat-x; background-position:bottom;
+margin-bottom:30px;
 .slide-text{max-width:430px; margin-top:80px;
 p{margin-top:40px; margin-bottom:40px;}
 }
 img{position:absolute;}
 .slider-house{top:390px; right:80px;}
-.slider-cycle{top:500px; left:470px;}
+.slider-cycle{top:500px; right:570px;}
 .slider-circle1{top:350px; right:510px;}
 .slider-circle2{top:330px; right:495px;}
 .slider-sun{top:170px; right:280px;}
@@ -287,12 +283,32 @@ p{
   padding-bottom: 20px;
   margin: 20px;
 }
-@media (max-width:750px){
-    #clients .col-xs-3 .col-sm-2{
+/*vivi*/
+
+@media (max-width: 768px) {
+  .single-features{padding: 1.5em;}
+  h2,p{text-align:center; }
+  img{margin: auto;}
+
+     #clients .col-xs-3 .col-sm-2{
     margin:0px !important; 
     padding:0px !important;
     border:0px !important;
 
    } 
 }
-/*vivi*/
+@media (max-width:990px){
+  #home-slider{ min-height:780px; 
+  .slide-text{margin:auto; text-align:center;}
+  p{margin-top:15px; margin-bottom:15px;}
+
+.slider-house{top:740px;}
+.slider-cycle{top:850px;}
+.slider-circle1{top:700px; }
+.slider-circle2{top:680px; }
+.slider-sun{top:520px; }
+.slider-cloud1{top:570px; }
+.slider-cloud2{top:500px; }
+.slider-cloud3{top:630px; }
+}
+}
